@@ -6,10 +6,10 @@ An upgraded, responsive, accessible Student Profile built using HTML and CSS, bu
 This application serves as a digital student profile. It highlights my personal background information, interests, education, goals, and technical skill sets.
 
 ## 2. Application Structure
-Header: houses the user profile avatar, complete name, subtitle, and primary navigation bar.
-Navigation Menu: accessible links allowing intra-page navigation between sections.
-About Section: contains background information, personal interests, education details, and future aspirations.
-Skills Section: itemizes core technical skills alongside clear descriptive details.
+Header: houses the user profile avatar, complete name, subtitle, and primary navigation bar.<br>
+Navigation Menu: accessible links allowing intra-page navigation between sections.<br>
+About Section: contains background information, personal interests, education details, and future aspirations.<br>
+Skills Section: itemizes core technical skills alongside clear descriptive details.<br>
 Footer: displays my copyright notice and year.
 
 ## 3. Responsive Design
