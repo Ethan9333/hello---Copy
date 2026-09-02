@@ -13,22 +13,22 @@ Skills Section: itemizes core technical skills alongside clear descriptive detai
 Footer: displays my copyright notice and year.
 
 ## 3. Responsive Design
-The application utilizes a mobile-first fluid layout implemented with standard CSS media queries (`@media (min-width: 600px)` and `@media (min-width: 900px)`). 
-Mobile: Single-column stacked layout avoiding horizontal scroll.
-Tablet: Flexible inline header alignment and enhanced padding for medium screens.
+The application utilizes a mobile-first fluid layout implemented with standard CSS media queries.<br>
+Mobile: Single-column stacked layout avoiding horizontal scroll.<br>
+Tablet: Flexible inline header alignment and enhanced padding for medium screens.<br>
 Desktop: Two-column grid layout utilizing screen real estate efficiently while keeping line lengths comfortable to read.
 
-## 4. UI/UX Principles Applied (Module 4)
-Responsive Layout: Fluid width styling (`width: 90%`, `max-width: 1000px`) combined with CSS Grid/Flexbox to prevent overflow and text truncation.
-Mobile-Friendly Spacing: Standardized outer padding and margins (`rem` units) ensure distinct boundaries between text blocks and cards.
-Appropriate Typography: Uses scalable `rem` font sizes, high line-height (`1.6`), and modern system font stacks for optimal readability.
-Clear Visual Hierarchy: Distinct font weights and colors separate section titles (`h2`), subtitles (`h3`), bold labels, and body copy.
-Usable Controls: Touch-friendly navigation targets designed with minimum click targets ($\ge 44\text{px}$) and clear hover/focus indicators.
-Basic Accessibility: Contrast-compliant background colors, semantic HTML structural tags (`<header>`, `<main>`, `<section>`, `<nav>`), dynamic image `alt` text, and clear focus styling.
-Consistent Design: Utilizes CSS custom variables (`:root`) for color scheme, font stacks, border radiuses, and spacing patterns.
+## 4. UI/UX Principles Applied
+Responsive Layout: Fluid width styling combined with CSS Grid/Flexbox to prevent overflow and text truncation.<br>
+Mobile-Friendly Spacing: Standardized outer padding and margins ensure distinct boundaries between text blocks and cards.<br>
+Appropriate Typography: Uses scalable font sizes, high line-height, and modern system font stacks for optimal readability.<br>
+Clear Visual Hierarchy: Distinct font weights and colors separate section titles, subtitles, bold labels, and body copy.<br>
+Usable Controls: Touch-friendly navigation targets designed with minimum click targets and clear hover/focus indicators.<br>
+Basic Accessibility: Contrast-compliant background colors, semantic HTML structural tags, dynamic image alt text, and clear focus styling.<br>
+Consistent Design: Utilizes CSS custom variables for color scheme, font stacks, border radiuses, and spacing patterns.
 
 ## 5. Navigation
-The intra-page navigation uses native HTML anchor links (`href="#about"` and `href="#skills"`). It requires zero JavaScript and relies on standard HTML document fragment identifier scrolling with CSS `scroll-behavior: smooth`.
+The intra-page navigation uses native HTML anchor links. It requires zero JavaScript and relies on standard HTML document fragment identifier scrolling with CSS.
 
 ## 6. How to Run
 
@@ -40,7 +40,7 @@ cordova build android
 
 # Run android
 cordova run android
-```
+
 
 ## 7. Application Screenshots
 
